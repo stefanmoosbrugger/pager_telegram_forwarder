@@ -24,6 +24,6 @@ and sending them to the telegram recipient with the ID `-1001004000133` (the use
 python pager_telegram_forwarder.py --freq="100.15M" --prot="POCSAG512 POCSAG1200" --min="25" --tID="123456789:JKASDHLJASGDjhsagdjhagASasfdA" --rID="-1001004000133"
 ```
 
-## Shell script autostart
+## Script autostart
 For convenience only. If you want the script to be started automatically you can use the provided shell script
 and add it to the crontab. It checks if the forwarder script is already active. If not it will be started. This is useful because the script crashes sometimes. 
