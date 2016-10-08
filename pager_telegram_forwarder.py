@@ -41,7 +41,7 @@ def start_multimon(freq, prot, minlen, tid, rid):
 		    pass
 
 def main(argv):
-	print "POCSAG Recorder"
+	print "Pager telegram forwarder"
         freq = "" #f
         protocols = "" #p
         min_len = "" #m
