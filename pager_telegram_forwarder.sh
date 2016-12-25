@@ -5,6 +5,7 @@ if [ $result -ge 1 ]
         echo "script is running"
    else
         echo "start the script"
-	nohup python ./pager_telegram_forwarder.py --freq='100.15M' --prot='POCSAG512 POCSAG1200' --min='25' --tID='123456789:JKASDHLJASGDjhsagdjhagASasfdA' --rID='-1001004000133'
+	dir=`dirname $0`
+	nohup python $dir/pager_telegram_forwarder.py --freq='163.165M' --prot='POCSAG512 POCSAG1200' --min='25' --tID='321864229:AAEWq8JtAWY6QrogQJfqjePZwRKM_SWHSVk' --rID='-1001064070138'
  > /dev/null 2>&1 &
 fi
