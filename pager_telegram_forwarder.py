@@ -31,7 +31,7 @@ def start_multimon(freq, prot, minlen, tid, rid):
                     continue
                 d.append(output) # add to deque
 		msg = output.split("Alpha:",1)[1] # get the message
-		if len(msg)<minlen: # if msg length < minlen skip
+		if int(len(msg))<int(minlen): # if msg length < minlen skip
 			continue;
 		time = strftime("%Y-%m-%d %H:%M", gmtime()) # get timestamp
 		print msg # print the message
