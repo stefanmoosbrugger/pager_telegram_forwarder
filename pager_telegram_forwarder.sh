@@ -6,6 +6,6 @@ if [ $result -ge 1 ]
    else
         echo "start the script"
 	dir=`dirname $0`
-	nohup python $dir/pager_telegram_forwarder.py --freq='163.165M' --prot='POCSAG512 POCSAG1200' --min='25' --tID='321864229:AAEWq8JtAWY6QrogQJfqjePZwRKM_SWHSVk' --rID='-1001064070138'
+	nohup python $dir/pager_telegram_forwarder.py --freq='123.456M' --prot='POCSAG512 POCSAG1200' --min='25' --tID='322975229:BBEWq8JtAWY6QrogQJfqjePZwZTE_SWHSVk' --rID='-1001085080629'
  > /dev/null 2>&1 &
 fi
